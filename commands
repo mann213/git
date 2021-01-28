@@ -1,0 +1,16 @@
+# Add new files to git to be tracked
+git add <filename>
+# Commiting a file in the repo
+git commit <filename> -m "<Your Message>"
+# Push your commits to upstream
+git push
+———
+# Creates a new branch
+git checkout -b <branch_name>
+# Switch to existing branch
+git checkout <branch_name>
+——
+# Fetch new commits
+git fetch
+# Fetch new commits and update the HEAD pointer
+git pull
