@@ -1,4 +1,4 @@
-
+########################################
 # Add new files to git to be tracked
 git add <filename>
 # Commiting a file in the repo
@@ -10,6 +10,8 @@ git push
 git checkout -b <branch_name>
 # Switch to existing branch
 git checkout <branch_name>
+#Push branch 
+git push origin <branch_name>
 ——
 # Fetch new commits
 git fetch
