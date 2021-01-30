@@ -29,3 +29,7 @@ $ git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
 %an is the name of the author
 --graph tells git to display the commit tree in the form of an ASCII graph layout
 --date=short keeps the date format short and nice
+git hist master --all
+git switch -c <new_branch>
+git diff
+
