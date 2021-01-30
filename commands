@@ -17,5 +17,10 @@ git push origin <branch_name>
 git fetch
 # Fetch new commits and update the HEAD pointer
 git pull
-
+#to get status
+git status
+# to get log
+git log
+# to merge files
+git merge
 ###########################################
