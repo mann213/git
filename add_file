@@ -10,3 +10,5 @@ git status
 git commit -a -m "new file added"
 ##git revert if do not want the commit
 git push origin dev_usergit log
+#to commit one file at a time
+git commit -m "adding selective file" add_file
