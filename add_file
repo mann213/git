@@ -33,3 +33,6 @@ git hist master --all
 git switch -c <new_branch>
 git diff
 git reset HEAD file.txt
+git rm file.txt
+git restore --staged file.txt
+
