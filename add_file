@@ -15,3 +15,8 @@ git commit -m "adding selective file" add_file
 git diff main dev_user
 #to pull request
 git pull origin dev_user
+git log --pretty=oneline --max-count=2
+git log --pretty=oneline --since='5 minutes ago'
+git log --pretty=oneline --until='5 minutes ago'
+git log --pretty=oneline --author=<your name>
+git log --pretty=oneline --all
