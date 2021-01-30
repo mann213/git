@@ -32,4 +32,4 @@ $ git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
 git hist master --all
 git switch -c <new_branch>
 git diff
-
+git reset HEAD file.txt
