@@ -3,3 +3,10 @@ $ git commit -a -m "new features" #commit all t changes
 $ git checkout master #Checkout to Master
 $ git merge dev_user #Merge new branch "dev_user"
 $ git branch -d dev_user #Delete new branch "dev_user"
+git checkout dev_user
+vi file.txt
+git add file.txt
+git status
+git commit -a -m "new file added"
+##git revert if do not want the commit
+git push origin dev_usergit log
