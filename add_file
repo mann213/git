@@ -1,0 +1,5 @@
+$ git checkout -b dev_user #Create and checkout new branch
+$ git commit -a -m "new features" #commit all t changes
+$ git checkout master #Checkout to Master
+$ git merge dev_user #Merge new branch "dev_user"
+$ git branch -d dev_user #Delete new branch "dev_user"
