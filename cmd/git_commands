@@ -7,4 +7,15 @@ git status
 ##to undo merge that has not been pushed yet
  git reset --merge ORIG_HEAD
  git show HEAD@{2021-01-30}:cmd/commands
-
+### to rebase main
+git rebase main
+###to get the original/remote
+git remote
+git remote show origin
+##to show all branches remote
+git branch -a
+git fetch --all
+git fetch origin
+##to track a branch, use another branch
+$ git branch --track devuser origin/dev_user
+Branch 'devuser' set up to track remote branch 'dev_user' from 'origin'
