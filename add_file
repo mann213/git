@@ -3,23 +3,23 @@ $ git commit -a -m "new features" #commit all t changes
 $ git checkout master #Checkout to Master
 $ git merge dev_user #Merge new branch "dev_user"
 $ git branch -d dev_user #Delete new branch "dev_user"
-git checkout dev_user
-vi file.txt
-git add file.txt
-git status
-git commit -a -m "new file added"
+$ git checkout dev_user
+$ vi file.txt
+$ git add file.txt
+$ git status
+$ git commit -a -m "new file added"
 ##git revert if do not want the commit
-git push origin dev_usergit log
+$ git push origin dev_usergit log
 #to commit one file at a time
-git commit -m "adding selective file" add_file
+$ git commit -m "adding selective file" add_file
 git diff main dev_user
 #to pull request
-git pull origin dev_user
-git log --pretty=oneline --max-count=2
-git log --pretty=oneline --since='5 minutes ago'
-git log --pretty=oneline --until='5 minutes ago'
-git log --pretty=oneline --author=<your name>
-git log --pretty=oneline --all
+$ git pull origin dev_user
+$ git log --pretty=oneline --max-count=2
+$ git log --pretty=oneline --since='5 minutes ago'
+$ git log --pretty=oneline --until='5 minutes ago'
+$ git log --pretty=oneline --author=<your name>
+$ git log --pretty=oneline --all
 $ git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
 --pretty="..." defines the output format.
 %h is the abbreviated hash of the commit
@@ -35,4 +35,8 @@ git diff
 git reset HEAD file.txt
 git rm file.txt
 git restore --staged file.txt
+git tag -d tagname
+-- to delete a remote tag
+git push --delete origin <tagname>
+git push --delete origin :refs/tags/tagname
 
