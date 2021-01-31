@@ -1,2 +1,0 @@
-amending commit
-git commit --amend -m "message"
