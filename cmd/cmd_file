@@ -43,3 +43,5 @@ git tag v1
 git push origin --tags
 git push origin tagname
 git show tagname
+##move file to folder, also used to rename file names
+git mv cmd_file cmd_folder
