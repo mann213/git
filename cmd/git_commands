@@ -3,3 +3,5 @@
 git status
 
 .gitconfig at $HOME  
+##to undo merge that has not been pushed yet
+ git reset --merge ORIG_HEAD
