@@ -35,4 +35,6 @@ git diff
 git reset HEAD file.txt
 git rm file.txt
 git restore --staged file.txt
-
+git push --delete origin <tagname>
+#just in case user has same branch name as tag name
+git push origin :refs/tags/<tag>
