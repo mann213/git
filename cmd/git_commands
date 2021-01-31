@@ -3,3 +3,5 @@
 git status
 
 .gitconfig at $HOME  
+
+ git show HEAD@{2021-01-30}:cmd/commands
