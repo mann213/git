@@ -19,4 +19,7 @@ git fetch origin
 ##to track a branch, use another branch
 $ git branch --track devuser origin/dev_user
 Branch 'devuser' set up to track remote branch 'dev_user' from 'origin'
+### to checkout the version ###
+git checkout tags/<tag> -b <branch>
+git fetch --tags
 
