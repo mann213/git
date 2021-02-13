@@ -23,3 +23,5 @@ Branch 'devuser' set up to track remote branch 'dev_user' from 'origin'
 git checkout tags/<tag> -b <branch>
 git fetch --tags
 
+## to list tags
+git tag -l "v1.8.5*"
