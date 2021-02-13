@@ -25,5 +25,5 @@ git log
 # to merge files
 git merge
 # to create/share/checkout tags
-#
+git tag <tagname> -m "message"
 ###########################################
